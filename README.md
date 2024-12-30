@@ -45,7 +45,6 @@ B -->|Renders| A
 The **data flow** within the application ensures that user interactions result in appropriate data fetching and rendering without unnecessary delays or data inconsistencies.
 
 ```mermaid
-mermaid
 sequenceDiagram
 participant User
 participant Frontend
