@@ -63,12 +63,12 @@ const CustomDropdownMenu: React.FC<DropdownMenuProps> = ({ items, selectedItem, 
           <ChevronDown className="w-4 h-4 ml-2" />
         </button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="mt-1 w-full bg-white border border-gray-200 rounded-md shadow-lg">
+      <DropdownMenuContent className="w-[var(--radix-dropdown-trigger-width)] bg-white border border-gray-200 rounded-md shadow-lg">
         {items.map((item) => (
           <DropdownMenuItem
             key={item}
             onSelect={() => onSelect(item)}
-            className="px-4 py-2 cursor-pointer hover:bg-gray-100"
+            className="w-full px-4 py-2 cursor-pointer hover:bg-gray-100"
           >
             {item}
           </DropdownMenuItem>

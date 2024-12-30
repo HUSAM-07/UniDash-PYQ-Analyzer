@@ -5,10 +5,10 @@ import Link from 'next/link'
 
 import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuLink } from "@/components/ui/navigation-menu";
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from "@/components/ui/dropdown-menu";
-import { Menu, Sparkle, AtSign } from "lucide-react";
+import { Menu, Sparkle, AtSign, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { BackpackIcon } from "@radix-ui/react-icons";
 import Footer from "@/components/Footer";
+import AnimatedShinyText from "@/components/ui/animated-shiny-text";
 
 // Configure Inter font
 const inter = Inter({ 
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 function DesktopMenu() {
   return (
     <NavigationMenu className="hidden md:flex">
-      <NavigationMenuList className="flex space-x-4">
+      <NavigationMenuList className="flex space-x-4 items-center">
         <NavigationMenuItem>
           <Link href="/" className="hover:text-[#fc4707] transition-colors p-2">
             <AtSign className="h-6 w-6" />
@@ -43,6 +43,11 @@ function DesktopMenu() {
               <Sparkle className="ml-1 h-3 w-3" />
             </NavigationMenuLink>
           </Button>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <AnimatedShinyText className="text-sm font-medium text-gray-500 whitespace-nowrap flex items-center gap-1">
+            ✨This is still being developed
+          </AnimatedShinyText>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>

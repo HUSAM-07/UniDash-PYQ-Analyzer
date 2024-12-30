@@ -8,8 +8,10 @@ export async function GET() {
     const jsonData = fs.readFileSync(dataPath, 'utf-8')
     const questions = JSON.parse(jsonData)
 
-    // Extract unique subjects
+    // Extract unique subjects and sort them
     const subjects = Array.from(new Set(questions.map((q: any) => q.subject)))
+      .filter(Boolean) // Remove any null/undefined values
+      .sort() // Sort alphabetically
 
     return NextResponse.json({ subjects })
   } catch (error) {
