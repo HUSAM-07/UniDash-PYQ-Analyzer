@@ -34,7 +34,7 @@ UniDash — PYQ Analyzer follows a **client-server architecture** leveraging Nex
 graph TD
 A[User Interface] -->|Interacts with| B[Next.js Frontend]
 B -->|Fetches Data via API| C[Next.js API Routes]
-C -->|Reads from| D[Processed Data (JSON)]
+C -->|Reads from| D[Processed Data JSON]
 D -->|Provides| C
 C -->|Sends Data to| B
 B -->|Renders| A
