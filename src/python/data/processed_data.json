@@ -1,0 +1,149 @@
+[
+  {
+    "id": "Q1",
+    "question": "State space model: Derive the state transition matrix (A) and control input matrix (B) for the following dynamic model: d³y/dt³ + 5d²y/dt² - 3dy/dt + 2y = 3u",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q2",
+    "question": "Alpha-Beta-Gamma filter: Consider the distance measurement using acceleration model in 1D using a radar. The distance measured in 10 iterations are given below. The initial distance = 1000 m, velocity = 40 m/s, and acceleration = 0.2 m/s². Estimate the distance using alpha [=0.5], beta [=0.3], and gamma [=0.1] filters. Solve 0,1,2 iterations manually and show the results. dt = 5 sec Measurements: 1202.5, 1410, 1622.5, 1840, 2062.5, 2290, 2522.5, 2760, 3002.5, 3250, 3502.5, 3760",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q3",
+    "question": "Kalman Filter (static): The height of a building is measured using an altimeter. The mean value is 150 m and standard deviation is 7 m. Use Kalman filter [static] to estimate the height. Solve 0,1,2 iterations manually.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q4",
+    "question": "Kalman filter (2D second-order model): Consider the motion of a robot in a 2D environment defined by a second-order model without control input. The standard deviation in acceleration = 0.05 m/s²; the standard deviation in measurement of x and y distance is 2 m each. The time step is 1 sec. Determine the matrices F, P, H, Q, and R used to solve the problem.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q5",
+    "question": "Inexact motion in particle filter: The initial probability of having the robot in each grid is shown below: Grid: [1,2,3,4,5], Probability: [0,0.5,0,0.5,0]. Case 1: If the robot moves by 2 units what will be the probability distribution if the probability for exact motion is 75% and undershoot is 10% and overshoot is 15%? Case 2: If the robot moves by 1 unit what will be the probability distribution under the same conditions?",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q6",
+    "question": "Graph SLAM: Assume a 1D environment with three positions [X0, X1, X2] and three landmarks [L0, L1, L2]. X0 to X1 is +5 units, X1 to X2 is +3 units, and X2 to X3 is -2 units. The distances between L0, L1, and L2 are +3,+8,+11 units. Determine the locations of the robot positions and landmarks.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q7",
+    "question": "Dijkstra: Determine the shortest path for all nodes from A for the following network diagram using Dijkstra's algorithm.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q8",
+    "question": "Path planning: Using Dijkstra's algorithm determine the shortest path from start to goal with constant cost. Show calculations in the grid.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q9",
+    "question": "'A* Algorithm': Using A* algorithm determine the shortest path for a given grid map from S to G. Show calculations in the grid.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q11",
+    "question": "Edge detection: The digital matrix of an image is given below. Apply the following filter for edge detection and determine the matrix of the filtered image.\nMatrix:\n1 0 2 4 1 3\n1 5 2 1 5 2\n4 5 3 2 4 1\n1 4 5 0 2 0\n1 2 0 1 0 1\n1 4 3 2 5 0\nFilter:\n-1 0 1\n-1 0 1\n-1 0 1",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q12",
+    "question": "Gaussian filter: For Question Q11, apply a median filter and determine the matrix after filtering with stride =1.\nFilter:\n0.06, 0.1, 0.06\n0.1, 0.2, 0.1\n0.06, 0.1, 0.06",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q13",
+    "question": "Kalman filter (2D tracking): The robot's position measured in a 2D environment is given below. Estimate the position using a Kalman filter (second-order model) in Python programming.\nPosition (x, y):\nx: [10.00, ...,150.00], y: [5.20,...,679.00]\nStandard deviation and time step:\ndt=1.0, std_acc=0.05, x_std_meas=2, y_std_meas=2.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q14",
+    "question": "Particle filter (2D sensing): While exploring a grid environment, the robot moves and senses colors:\nColors: [['R', 'G', 'G', 'R', 'R'], ['R', 'R', 'G', 'R', 'R'], ['R', 'R', 'G', 'G', 'R'], ['R', 'R', 'R', 'R', 'R']]\nMeasurements: ['R','G','R','R','R']\nMotions: [[0,0],[0,1],[1,0],[1,0],[1,0]]\nDetermine the probability for the location of the robot after these motions using Python programming (sensor_right=0.7, p_move=0.8). Identify which grid cell the robot is in.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q15",
+    "question": "Adjacency matrix and Dijkstra's algorithm: Form the adjacency matrix for Question Q7 in Part A and determine the shortest path for all nodes from A using Dijkstra's algorithm.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q16",
+    "question": "'A* Algorithm': For Question Q8 in Part A, use A* algorithm to determine the shortest path from start to goal.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q17",
+    "question": "'Image processing': Save an image as rose.jpg on your desktop and perform operations such as edge detection or filtering using Python programming.",
+    "subject": "'AI for Robotics'",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q18",
+    "question": "Grassfire Method: Explain the Grassfire algorithm and solve a 5x5 grid to find the shortest path from a start point to a goal point.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": "The Grassfire algorithm propagates wavefronts from the start point, incrementing values at each step until it reaches the goal. The shortest path is traced back from the goal to the start by following decreasing values."
+  },
+  {
+    "id": "Q19",
+    "question": "Genetic Algorithms: How can genetic algorithms be applied to solve path planning problems?",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": "Genetic algorithms use evolutionary principles such as selection, crossover, and mutation to optimize paths. A population of candidate paths evolves over generations to find an optimal or near-optimal solution."
+  },
+  {
+    "id": "Q20",
+    "question": "Graph SLAM: Explain how Graph SLAM works in mapping and localization.",
+    "subject": "AI for Robotics",
+    "courseID": "BITS F327",
+    "answer": "Graph SLAM constructs a graph where nodes represent poses and landmarks, and edges represent constraints derived from sensor measurements. Optimization techniques minimize error in these constraints to estimate accurate maps and robot poses."
+  },
+  {
+    "id": "Q21",
+    "question": "1-D GSLAM: Solve a 1D Graph SLAM problem where three positions [X0, X1, X2] and three landmarks [L0, L1, L2] are given with known distances between them.",
+    "subject": "'AI for Robotics'",
+    "courseID": "BITS F327",
+    "answer": ""
+  },
+  {
+    "id": "Q22",
+    "question": "'2-D GSLAM': How does Graph SLAM extend to two dimensions? Provide an example scenario.",
+    "subject": "'AI for Robotics'",
+    "courseID": "BITS F327",
+    "answer": ""
+  }
+]
