@@ -69,36 +69,36 @@ Frontend-->>User: Display Predicted Questions
 Understanding the project's structure is crucial for navigating and contributing effectively. Here's an overview of the key directories and files:
 
 ├── public/
-│ ├── globe.svg
-│ ├── window.svg
-│ ├── vercel.svg
-│ ├── next.svg
-│ ├── file.svg
-│ ├── favicon.ico
-│ └── ...
+│   ├── globe.svg
+│   ├── window.svg
+│   ├── vercel.svg
+│   ├── next.svg
+│   ├── file.svg
+│   ├── favicon.ico
+│   └── ...
 ├── src/
-│ ├── app/
-│ │ ├── api/
-│ │ │ ├── subjects/
-│ │ │ │ └── route.ts
-│ │ │ └── random-question/
-│ │ │ └── route.ts
-│ │ ├── components/
-│ │ │ ├── question-predictor/
-│ │ │ │ └── predictor.tsx
-│ │ │ └── ui/
-│ │ │ ├── button.tsx
-│ │ │ ├── dropdown-menu.tsx
-│ │ │ ├── navigation-menu.tsx
-│ │ │ └── ...
-│ │ ├── globals.css
-│ │ ├── layout.tsx
-│ │ ├── page.tsx
-│ │ └── ...
-│ ├── python/
-│ │ └── data/
-│ │ └── processed_data.json
-│ └── ...
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── subjects/
+│   │   │   │   └── route.ts
+│   │   │   ├── random-question/
+│   │   │   │   └── route.ts
+│   │   ├── components/
+│   │   │   ├── question-predictor/
+│   │   │   │   └── predictor.tsx
+│   │   │   └── ui/
+│   │   │       ├── button.tsx
+│   │   │       ├── dropdown-menu.tsx
+│   │   │       ├── navigation-menu.tsx
+│   │   │       └── ...
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── ...
+│   ├── python/
+│   │   └── data/
+│   │       └── processed_data.json
+│   └── ...
 ├── .gitignore
 ├── next.config.ts
 ├── package.json
@@ -106,7 +106,7 @@ Understanding the project's structure is crucial for navigating and contributing
 ├── tailwind.config.ts
 ├── postcss.config.mjs
 ├── README.md
-└── 
+
 
 
 - **public/**: Contains static assets like images, icons, and the favicon.
