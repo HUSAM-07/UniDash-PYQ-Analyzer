@@ -67,7 +67,7 @@ Frontend-->>User: Display Predicted Questions
 ## Project Structure
 
 Understanding the project's structure is crucial for navigating and contributing effectively. Here's an overview of the key directories and files:
-
+```
 ├── public/
 │   ├── globe.svg
 │   ├── window.svg
@@ -106,7 +106,7 @@ Understanding the project's structure is crucial for navigating and contributing
 ├── tailwind.config.ts
 ├── postcss.config.mjs
 ├── README.md
-
+```
 
 
 - **public/**: Contains static assets like images, icons, and the favicon.
